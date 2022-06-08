@@ -38,7 +38,7 @@
 
                             @include('includes.deletePost')
 
-                            <a href="{{ route('admin.posts.edit', $post->id) }}"></a>
+                            <a href="{{ route('admin.posts.edit', $post->id) }} " class="btn btn-primary">edit</a>
                         </td>
                     </tr>
 
